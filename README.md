@@ -1,3 +1,9 @@
+# Changes
+These are the changes made with respect to the master branch:
+- Refactored the code to pass objects between functions instead of pickling the intermediate outputs
+- The code directly outputs a file with the queries that should be passed as input to the QA model
+- Outputs which examples had missing entities or questions.
+
 # APES-on-TAC2011
 
 This repository is meant to access APES summarization evaluation metric on the data published in [TAC AESOP 2011](https://tac.nist.gov/2011/Summarization/AESOP.2011.guidelines.html).
